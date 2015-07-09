@@ -11,7 +11,10 @@
     "index.js"
   ],
   "keywords": [
-    "gulpplugin"
+    "gulpplugin",
+    "wordpress",
+    "file-header",
+    "package.json"
   ],
   "dependencies": {
     "gulp": "^3.8.7",
