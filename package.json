@@ -1,0 +1,30 @@
+{
+	"name": "gulp-wp-file-header",
+	"description": "Adds 'File Header' to Wordpress Theme's style.css file based on package.json data",
+	"version": "0.0.1",
+	"author": "Denis Oleynik <oleynik.denis@gmail.com>",
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"gulpplugin"
+	],
+	"dependencies": {
+		"gulp": "^3.8.7",
+		"through2": "^0.5.1",
+		"gulp-util": "^3.0.4",
+		"lodash": "^3.0.1",
+		"pad": "^0.1.0"
+	},
+	"devDependencies": {
+		"mocha": "*",
+		"should": "*"
+	},
+	"scripts": {
+		"test": "mocha --reporter spec"
+	},
+	"engines": {
+		"node": ">= 0.10"
+	},
+	"license": "MIT"
+}
