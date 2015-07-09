@@ -1,8 +1,12 @@
 {
 	"name": "gulp-wp-file-header",
 	"description": "Adds 'File Header' to Wordpress Theme's style.css file based on package.json data",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"author": "Denis Oleynik <oleynik.denis@gmail.com>",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/oleynikd/gulp-wp-file-header.git"
+	},
 	"files": [
 		"index.js"
 	],
