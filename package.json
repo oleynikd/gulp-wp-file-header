@@ -4,34 +4,35 @@
   "version": "0.0.3",
   "author": "Denis Oleynik <oleynik.denis@gmail.com>",
   "repository": {
-    "type": "git",
-    "url": "git://github.com/oleynikd/gulp-wp-file-header.git"
+	 "type": "git",
+	 "url": "git://github.com/oleynikd/gulp-wp-file-header.git"
   },
   "files": [
-    "index.js"
+	 "index.js"
   ],
   "keywords": [
-    "gulpplugin",
-    "wordpress",
-    "file-header",
-    "package.json"
+	 "gulpplugin",
+	 "wordpress",
+	 "wp",
+	 "file-header",
+	 "package.json"
   ],
   "dependencies": {
-    "gulp": "^3.8.7",
-    "through2": "^0.5.1",
-    "gulp-util": "^3.0.4",
-    "lodash": "^3.0.1",
-    "pad": "^0.1.0"
+	 "gulp": "^3.8.7",
+	 "through2": "^0.5.1",
+	 "gulp-util": "^3.0.4",
+	 "lodash": "^3.0.1",
+	 "pad": "^0.1.0"
   },
   "devDependencies": {
-    "mocha": "*",
-    "should": "*"
+	 "mocha": "*",
+	 "should": "*"
   },
   "scripts": {
-    "test": "mocha --reporter spec"
+	 "test": "mocha --reporter spec"
   },
   "engines": {
-    "node": ">= 0.10"
+	 "node": ">= 0.10"
   },
   "license": "MIT"
 }
