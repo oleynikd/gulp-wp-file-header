@@ -11,22 +11,18 @@
     "index.js"
   ],
   "keywords": [
-    "gulpplugin",
     "wordpress",
     "wp",
     "file-header",
     "package.json"
   ],
   "dependencies": {
-    "gulp": "^3.8.7",
-    "through2": "^0.5.1",
-    "gulp-util": "^3.0.4",
     "lodash": "^3.0.1",
     "pad": "^0.1.0"
   },
   "devDependencies": {
-    "mocha": "*",
-    "should": "*"
+    "chai": "^3.3.0",
+    "mocha": "*"
   },
   "scripts": {
     "test": "mocha --reporter spec"
