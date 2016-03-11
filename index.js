@@ -11,7 +11,10 @@ var fields = {
     "description" : "Description",
     "version"     : "Version",
     "author"      : "Author",
-    "keywords"    : "Tags"
+    "keywords"    : "Tags",
+    "dependencies": {
+        "parent-theme": "Template"
+    }
 };
 
 module.exports = function(path) {
@@ -90,7 +93,11 @@ WPFileHeader.prototype.patch = function(style, cb) {
     var out = "/*\n";
     _.forEach(fields, function(n, key) {
         if (typeof manifest[key] != "undefined") {
-            out += pad(n+":", 20) + manifest[key] + "\n";
+            if (key == "dependencies") {
+                out += pad(n["parent-theme"]+":", 20) + manifest[key]["parent-theme"] + "\n";
+            } else {
+                out += pad(n+":", 20) + manifest[key] + "\n";
+            }
         }
     });
     out += "*/\n";
