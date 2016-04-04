@@ -11,7 +11,8 @@ var fields = {
     "description" : "Description",
     "version"     : "Version",
     "author"      : "Author",
-    "keywords"    : "Tags"
+    "keywords"    : "Tags",
+    "subdomain"   : "Template"
 };
 
 module.exports = function(path) {
