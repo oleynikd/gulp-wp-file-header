@@ -11,7 +11,12 @@ var fields = {
     "description" : "Description",
     "version"     : "Version",
     "author"      : "Author",
-    "keywords"    : "Tags"
+    "authoruri"   : "Author URI",
+    "keywords"    : "Tags",
+    "textdomain"  : "Text Domain",
+    "template"    : "Template",
+    "license"     : "License",
+    "licenseuri"  : "License URI",
 };
 
 module.exports = function(path) {
